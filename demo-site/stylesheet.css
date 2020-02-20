@@ -1,0 +1,56 @@
+@charset "uft-8";
+
+html{
+    font-size: 85%;
+}
+body{
+    color: #444;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 18px;
+	line-height:1.5;
+	word-wrap: break-word;
+}
+a{
+    text-decoration: none;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.header-right{
+    margin-top: 80px;
+    margin-right: 300px;
+    padding: auto;
+}
+.img{
+    text-align: center;
+}
+article{
+    text-align: center;
+    
+    font-size: 27px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 100px;
+    
+}
+section{
+    width: 70%;
+}
+aside{
+    width: 30%;
+}
+.contents ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+}
