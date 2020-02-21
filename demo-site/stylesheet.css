@@ -51,6 +51,17 @@ aside{
     
 }
 .footer ul{
-    display: flex;
+    padding: 0px;
     justify-content: space-between;
+    list-style: none;
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:28% 24% 24% 24%;
+}
+.profile{
+    width: 100px;
+    border-radius: 50%;
 }
